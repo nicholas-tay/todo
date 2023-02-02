@@ -3,9 +3,9 @@ import "./Cat.css";
 function Cat(props) {
     return (
       <div>
-        <p> Cat </p>
+        <p> Daily Motivation </p>
         <img class = "kitten" src = {"https://placekitten.com/" + props.id + "/300" } />
-        <p> Name: {props.name} </p>
+        <p> Quote of the Day: {props.name} </p>
       </div>
     );
   }

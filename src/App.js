@@ -8,7 +8,9 @@ import Footer from './Footer.js';
 function App() {
   return (
     <div className="App">
-      <p> This is a test</p>
+      <p> This is a simple ToDoList Dapp</p>
+      <p> ToDoList Dapp Still WIP and links may not work </p>
+      <p> Connect to Metamask, use Goerli Testnet to begin </p>
       <Header />
       <MainSection />
       <Footer />

@@ -106,6 +106,9 @@ function MainSection() {
     return (
       <div class = "MainSection">
         <div class = "Content">  
+            <p> </p>
+            <p> Troubleshooting: After adding task, you may need to refresh page to see your task </p>
+            <p> </p>
             <button onClick = {getWalletAddress}> Connect </button>
             <p> {currentAccount} </p>
             <p> Chain Name: {chainName} </p>
@@ -117,9 +120,13 @@ function MainSection() {
               ))}
         </div>
         <div class = "Sidebar">
-            <Cat id = "300" name = "Bob" />
-            <Cat id = "301" name = "Alice" />
-            <Cat id = "302" name = "Peter" />
+            <Cat id = "300" name = "The journey towards success begins with a most important step, just begin" />
+            <Cat id = "301" name = "Always make a total effort, even when the odds are against you." />
+            <Cat id = "302" name = "The best way to predict the future is to create it." />
+            <Cat id = "303" name = "I have not failed. I have just found 10,000 ways that would not work." />
+            <Cat id = "304" name = "If it does not challenge you, it does not change you." />
+            <Cat id = "305" name = "Dream as if you’ll live forever, live as if you’ll die today." />
+            <Cat id = "306" name = "Your time is limited, so don’t waste it living someone else’s life." />
         </div>
       </div>
     );

@@ -10,7 +10,7 @@ function Card(prop) {
     const toggle = async () => {
         const provider = new ethers.providers.Web3Provider(window.ethereum);
         const signer = provider.getSigner();
-        const contract = new ethers.Contract('0x8BE8A0752b402972135099d6e883d2E59583729F', ABI, signer);
+        const contract = new ethers.Contract('0x63C3250e5244b58c87458375B05a8421EC7c89de', ABI, signer);
 
         const toggleContract = await contract.toggleTask(prop.id);
 

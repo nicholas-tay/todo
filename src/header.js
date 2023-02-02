@@ -4,9 +4,9 @@ function Header() {
   return (
     <div class = "header">
       <ul>
-        <li> link 1 </li>
-        <li> link 2 </li>
-        <li> link 3 </li>
+        <li> How it works? </li>
+        <li> Contact </li>
+        <li> About </li>
       </ul>
     </div>
   );
